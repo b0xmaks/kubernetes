@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: tomcat:latest
+        image: dockercloud/hello-world:latest
         ports:
-        - containerPort: 8080
+        - containerPort: 80
