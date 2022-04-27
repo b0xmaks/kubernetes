@@ -18,4 +18,4 @@ spec:
       - name: tomcat
         image: dockercloud/hello-world:latest
         ports:
-        - containerPort: 80
+        - containerPort: 800
